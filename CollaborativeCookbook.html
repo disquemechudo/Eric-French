@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="stylez.css">
+	<title>Collaborative Cookbook</title>
+</head>
+
+<body>
+
+
+	<div id="CollaborativeCookbook-title">
+		<h1>
+	Collaborative Cookbook
+		</h1>
+	</div>
+
+
+
+
+	<div class="menu">
+
+<div class="menu-content">
+		<div class="menu-item">
+			<a href="index.html#projects" target="_top">Work</a>
+		</div>
+
+		<div class="menu-item">
+			<a href="other.html">Other</a>
+		</div>
+		
+
+		<div class="menu-item">
+			<a href="about.html">About</a>
+		</div>
+
+		<div class="menu-item">
+			<a href="EricFrenchResume.pdf" target="_blank">Resume</a>
+		</div>
+
+		<div class="menu-item">
+			<a href="mailto:ericfrenchmonge@gmail.com" target="_top">Contact</a>
+		</div>
+</div>
+
+	</div>
+
+		<div id="projects">
+		<div class="cc-overview">
+			<p>
+			Think of it as a combination of a personal recipe book mixed with WhatsApp group and Google Docs collaborative editing functionality.
+			</p>
+		</div>
+
+		<div class="content">
+		<h2>Challenge</h2>
+		<p>
+			The first thing that I thought of when presented with the challenge of designing an app involving food was something close to home. My partner and her family began texting recipes that they should cook for the week based on what one of them had already cooked. They all love food- they share recipes to learn to cook new dishes from each other, but also to feel closer to each other. Cooking brings people together, even virtually! My partner has also written cookbooks for her family members as gifts, so I thought that it would be cool to make this recipe sharing process more effective and immediate. 
+
+		</p>
+		<p>
+		The Collaborative Cookbook app gives users a simple way to save recipes into a personal digital cookbook. It also lets you share those recipes that you love with your closest friends and relatives so they can cook along with you, or vicariously enjoy what you make. If you want to create particular groups according to topics or tastes, like my partner and her sisters, then you can do so as well. Think of it as a combination of a personalized cookbook  mixed with a WhatsApp group and the Google Docs collaborative editing functionality.
+		</p>
+	</div>
+	<h2>How will it work?</h2>
+	<div id="ccsitemap">
+		<img src="ccsitemap.png">
+		</div>
+	<div class="content">
+		<p>
+		The first app map envisioned as its’ main task the process of looking for and creating a recipe. My first instinct was to make something that already existed. 
+		</p>
+		<p>
+		Editing (or what I would later call "Forking", get it?) recipes and creating the collaborative cookbooks became an afterthought in the first iteration. Yet this was the original piece of my idea- where I could meet my original need and construct a unique new app. This became clear in the course of developing and testing the wireframes.
+	</p>
+
+	</div>	
+		<div id="ccwireframes">
+		<img src="ccwireframes.png">
+		</div>
+
+	<div class="content">
+		<p>
+		After testing out the wireframes, I found some usability and navigation issues: lack of a back button, duplicate search fields, etc. For the next design sprint, I needed to be better about following the iOS Human Interface Guidelines. The app was also missing some key interactions that I needed to design for the prototype, like the process of creating a group or “forking” a recipe. The other great feedback from user testing was that some tabs on the tab bar were unnecessary, and that I should focus on groups rather than “my recipes”. It’s a collaborative cookbook, after all! Another question that came up was how users would invigorate their cookbooks and get new recipe inspiration if the users just get recipes from those they follow. Similar to other social apps, we needed some way for users to connect with strangers or connected ‘friends of friends’ for new ideas.
+		</p>
+		<p>
+		The new app map reflects these changes.
+		</p>
+	</div>
+		<div id="ccsitemap">
+		<img src="ccsitemap2.png">
+		</div>
+
+		<div id="ccprototype" class="content">
+		<h2>How will it look?</h2>
+		
+		
+		<div class="ccvisual">
+		<img src="ccrecipes.png">
+		</div>
+
+		<p>
+		The landing page of the app shows recipes based on the most recent activity of groups you belong to and people that you follow.
+		</p>
+
+		<div class="ccvisual">
+		<img src="cccreate.png">
+		</div>
+
+		<p>
+		On the tab bar, you can select ‘create a new recipe’, and it will walk you through an easy step by step process.
+		</p>
+
+		<div class="ccvisual">
+		<img src="ccadd.png">
+		</div>
+
+		<p>
+		For example, here you can see how you would add ingredients to a recipe.
+		</p>
+
+		<div class="ccvisual">
+		<img src="ccedited.png">
+		</div>
+
+		<p>
+		And this is how it would look when you have finished all the steps. This is also the view of when you "Fork" or remix an already existing recipe. You tap on the "Fork" button and go through the process of editing the recipe, which is similar to that of creating the recipe.
+		</p>
+
+		<div class="ccvisual">
+		<img src="cccookbooks.png">
+		</div>
+
+		<p>
+		You can add a new recipe or share an existing recipe to a group that you belong to. When you are in the "Group" view, you will first see the latest notification from one of your groups.
+		</p>
+
+		<div class="ccvisual">
+		<img src="ccnotifications.png">
+		</div>
+
+		<p>
+		When you select to see the notifications, you can choose to explore further by "cheering" and acknowledging the notification, or you can ignore it.
+		</p>
+
+		<div class="ccvisual">
+		<img src="ccaccept.png">
+		</div>
+
+		<p>
+		If the notification is a suggestion for a change in a recipe you have created, then you can accept or deny the suggestion. This is similar to Google Docs collaborative editing.
+		</p>
+
+		<div class="ccvisual">
+		<img src="cccreategroup.png">
+		</div>
+
+		<p>
+		You can also create a group, similar how you can create chat groups in WhatsApp.
+		</p>
+
+		<div class="ccvisual">
+		<img src="ccmeatz.png">
+		</div>
+
+		<p>
+		The group view is similar to the landing page group, but only with recipes and activities corresponding to that specific group.
+		</p>
+
+		<p>
+		This design also came with some consistency and navigation issues, as testing once again showed. But overall, users had a better understanding of how the app works after I changed the focus to groups. The “recipe” tab shows all the recipes and activities across all groups and friends you are following. Like in a social network, knowing how the people a user is following interacts with others allows for recipe discovery, while the ability to “fork” (remix) recipes from others facilitates cross pollination of group content.</p>
+
+		</div>
+
+		<div class="content">
+		
+		<h2>Apple TV app</h2>
+
+		<p>
+		I then translated the mobile app for the context of the Apple TV. I was responding to the prompt of: what advantages does Apple TV give you and what challenges does it present? How can each of these two different contexts complement and play of each other? </p>
+
+		<p>
+		I focused then on creating live video feeds of a person teaching a recipe that can be projected on the Apple TV’s big screen to make it easier to follow. Because the Apple TV allows for a shared experience, one chef can be the main chef using her or his phone to live stream, while others follow along on their own Apple TV. As they watch, users can also submit questions or add their own images or video for the recipe’s multimedia library. Group creation at its best!</p>
+
+		<p>
+		I tried to make the recipe creation process engaging, but user feedback convinced me that using a remote control makes this tricky. It’s better to let each tool do what it does best. </p>	
+
+		<p>
+		When I began designing this app, I started with the idea of sharing and improving upon each other’s recipes. This idea didn’t change much after multiple iterations, but the focus from recipe to groups made the app more engaging for users. Being able to create with others is better than doing it alone.
+		</p>
+
+		</div>
+
+		<div id="prototype">
+		<iframe src="https://marvelapp.com/j3j0i46?emb=1" width="100%" height="500" allowTransparency="true" frameborder="0"></iframe>
+		</div>
+
+	</div>
+
+
+
+
+
+<script src="myscript.js" type="text/javascript">
+	</script>
+
+</body>
+
+
+
+</html>

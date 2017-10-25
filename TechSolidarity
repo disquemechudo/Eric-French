@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+	<link href="https://fonts.googleapis.com/css?family=Pontano+Sans" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif" rel="stylesheet">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="stylez.css">
+	<title>Other Works</title>
+</head>
+
+<body>
+
+
+	<div id="TechSolidarity-title">
+		<h1>
+	Tech Solidarity redesign
+		</h1>
+	</div>
+
+
+
+
+	<div class="menu">
+
+<div class="menu-content">
+		<div class="menu-item">
+			<a href="index.html#projects" target="_top">Work</a>
+		</div>
+
+		<div class="menu-item">
+			<a href="other.html">Other</a>
+		</div>
+		
+
+		<div class="menu-item">
+			<a href="#about">About</a>
+		</div>
+
+		<div class="menu-item">
+			<a href="EricFrenchResume.pdf" target="_blank">Resume</a>
+		</div>
+
+		<div class="menu-item">
+			<a href="mailto:ericfrenchmonge@gmail.com" target="_top">Contact</a>
+		</div>
+</div>
+
+	</div>
+
+		<div id="projects">
+		<div class="overview">
+			<p>
+			The challenge was to redesign Tech Solidarity's web site in order to improve the onboarding experience so more volunteers can work on the causes they believe in.
+			</p>
+		</div>
+
+		<div class="content">
+		<p>
+			Tech Solidarity wants to connect volunteer tech workers (coders, designers, engineers, data security pros, etc) with social justice causes in their own cities. San Francisco web developer Maciej Ceglowski founded the grassroots group after the presidential election as a way to better direct the burst of energy that he was seeing, and now there are several independently-run chapters across the country.
+		</p>
+		<p>
+		Our assignment for the School of Visual Art’s Summer Intensive Practice of Interaction Design course was to redesign the web site in order to improve the onboarding experience, measured  by the increase of volunteers and donations to the different organizations Tech Solidarity is supporting and thus “to motivate the tech/creative community to use its considerable power, skills, and resources for social good”.
+		</p>
+		<p>
+		As a social justice activist and volunteer, I have often reflected upon how technology can effectively channel this passion to do something and facilitate the connections that would allow organizations to get the appropriate skills and volunteers the cause they want to contribute to with the amount they are able to, without wasting those resources (time and passion). I was very excited about this challenge, but also had to be self-aware about not applying many of my preconceived notions and personal biases on how a volunteer match system should be designed, and let the user research guide the process.
+		</p>
+		<p>
+		My team consisted of Anna Luiza de Almeida Verani, the UI lead, and myself, the UX lead. Our initial step was to take stock of the current situation.
+		</p>
+
+		<h2>Research</h2>
+		<p>
+		Prospective volunteers can find out about events through the website or Twitter. The events are the current medium to facilitate the connection between volunteers and the organizations that need them.</p>
+
+		<p>
+		Most of the meeting attendees are programmers, but some others are also tangentially involved: writers, designers, entrepreneurs, among others. Most are new to activism and haven’t organized events before. </p>
+
+		<p>
+		Prospective volunteers had different motivations in doing so, such as one that “wanted to give back to my community”, because a person “believed in their mission”, and another who “believes in social justice and feels there are problems worth solving”. Yet some of them had conditions in doing so, like “only local causes that benefit the community”, while for some there were barriers as well such as a person who doesn’t have too much time or works too many hours, or volunteering has “seemed like a hassle”. </p>
+
+		<p>
+		As we did an audit of the present user experience and content available, this is what we found:</p>
+
+		
+
+		</div>
+
+		<div id="techsolidarityoriginal">
+		<img class="image" src="originalsite.png">
+		</div>
+
+		<div class="content">
+			
+					<p> As you can see above, the main page has a couple of short paragraphs with the mission statement, objective of how the events will be organized, and a way to email the founder directly to join, without any specifics on what joining means (RSVP to an event?, creating own city chapter?).</p>
+
+					<p> The home page also has a list of cities, which are presumably the chapters that are active, and that do not have links. There are three links on the side bar to “About”, “Events” and “Resources”.</p>
+
+				<p>So if prospective volunteers would want to find out a little more about Tech Solidarity, they would click on the “About” link and… nothing happens because they get taken back to the home page, which they are already on!</p>
+				
+					<p> Currently, the site is not designed to convince them to join an event. This initial touchpoint might take place on social media like Twitter, or word of mouth. So the site at that moment of writing just gives the prospective volunteer information about the events they can assist. Those people wanting to volunteer can then click on “Events” and they will find a list of events in chronological order and separated by “Upcoming Events”, which has only two items listed with the date and the city, and by “Previously”, which has 29 past events, also with the date and the city. </p>
+
+					<div class="siteanalysis-image">
+					<img src="tsevents.png">
+					</div>
+					<p>They can click on each of those upcoming events and it can either give them a long description of who the speaker is, what organization they come from, why it matters, and details like the time and place. </p>
+				
+					<p>Or it could offer a much smaller description with the details of time and place, and just of a list of the speakers, their organizations and the topic they will be discussing. In all, the way to RSVP is to contact Maciej Ceglowski by email or Signal to get “a rough head count”. Though this seems optional since the event location is listed and anyone can just show up.
+					</p>
+
+				<div class="siteanalysis-image">
+				<img src="nycevent.png">
+				</div>
+
+					<p> Someone wanting to volunteer can also see the events that have passed, but can only click and see the description of the event of four out of the twenty-nine events that have already passed. Also three of those events have meeting notes with detailed description of what each speaker said, lightning talks, discussions and next steps. On those next steps, there is reference to “action items” on the NYC wiki, but no link to the wiki and no way to find it on the site. </p>
+
+				<div class="siteanalysis-image">
+				<img src="tsnotes.png">
+				</div>
+					<p> The “Resources” link reaffirms Tech Solidarity’s concern with data privacy as one of the major causes that tech workers could volunteer in. The link leads to three other wiki-style pages on “security guidelines”, “security key FAQs” and a guide in adding a security key to Gmail.
+					</p>
+				<div class="siteanalysis-image">
+				<img src="tsresources.png">
+				</div>
+		</div>
+
+		<div id="papermap">
+		<img src="map.jpg">
+		</div>
+
+		<div class="content">
+		<p>The challenge and opportunity was to use the existing elements that Tech Solidarity offered as stepping stones and create a pleasurable and useful pathway that would ultimately motivate the prospective volunteer, who might not have a lot of time, to quickly understand where she or he could fit in and connect directly with the organization that needs help. </p>
+		</div>
+
+		<div id="sitemap">
+		<img src="sitemap.png">
+		</div>
+
+		<div class="content">
+		<p>Our team wanted to start with just the information that would intrigue the prospective volunteer to go all the way and connect with an organization or an existing project, which became the key onboarding action we would design for. At the same time, we wanted the onboarding experience to have different tiers to get involved in a cause for those who might not have the time or who might need more convincing.</p>
+		</div>
+
+		<div id="journey" class="content">
+		<img src="userjourneymap.png">
+
+			<p>I created this journey map for the specific user flow of getting a prospective volunteer to find the best volunteering option, based on the content audit and initial user research. I categorized user goals by each stage of the onboarding process with the specific channels, features and steps that allow the user to go onto the next stage. While I also identified associated thoughts, feelings and pain points that a user might encounter within each stage so we could be aware of opportunities that could become the make or break point for a user to continue into the next stage. The journey map became our guide to design the flow.</p>
+
+		</div>
+
+		<div id="inicio" class="content">
+		
+		<h2>Initial prototypes</h2>
+
+		<p>In our first design spring, we created an initial prototype, drawing the different phone screens on paper and using sticky notes, and simulating the interaction with the Marvel app.</p>
+
+		<img src="ts-paper.png">
+
+		<p> We tested the paper prototype with three people who work in tech and the most important feedback was:</p>
+
+		<ul>
+			<li>What Tech Solidarity is about needs to be more descriptive.</li>
+			<li>Vague and confusing language when describing choices, such as the filtering options.</li>
+			<li>More details about volunteering: date, hours needed, next steps, line of work, problems that needed solving,  etc.</li>
+		</ul>
+	</div>
+
+	<div id="architecture">
+		<img id="myImg" src="https://images.performgroup.com/di/library/GOAL/99/f6/lionel-messi-argentina-2017_11vadgdu8rm581qpkj6wxiftnr.jpg?t=-498860546&quality=90&h=300">
+		 <div id="myModal" class="modal">
+
+  <span class="close">×</span>
+
+  <img class="modal-content" id="img01">
+
+</div>
+
+	</div>
+
+
+	<div class="content">
+		<h2>Site structure</h2>
+
+		<p>For the next design sprint, we created site wireframes incorporating feedback from the user testing, such as:</p>
+		<ul>
+			<li>Three sentences set up as steps, highlighted on top, to show how a person gets connected to an organization to volunteer with.</li>
+			<li>Show that volunteering and events are different things by having separate tabs in the menu and within the explanation of how to contribute, while also having different featured events, challenges and projects.</li>
+			<li>Making need and impact the primary way to showcase what the project is about.</li>
+			<li>Changing the language of the filters from “Cause” and “Type” to “What do you care about?” and “What are you good at?”.</li>
+			<li>Focusing on a small description of the problem, need, solution and impact within each project page as the necessary information to peak a volunteer’s interest.</li>
+		</ul>
+		<p>We then tested again, with a designer/video editor who has volunteered for social causes, a visual artist who is an activist, and a digital project manager who has also volunteered in the past. And we found that:</p>
+		<ul>
+			<li>The number list was confusing for some.</li>
+			<li>Navigation needs to be better when filtering out the opportunities.</li>
+			<li>Missing feedback at each stage a user takes action such as when submitting the form: "Is someone contacting me?"</li>
+			<li>Language needs to be more fun and direct.</li>
+		</ul>
+		<p>Before improving the flow again, we fleshed out the visual elements.</p>
+	</div>
+	<div class="content">
+
+		<div id="visual">
+		<img src="collage.png">
+		</div>
+
+		<h2>Visual design</h2>
+		<p> For our brand persona of the site, we combined the integrity, and willingness to act of Edward Snowden with the intelligence, but wry self-deprecating informative humor of John Oliver. </p>
+
+		<p> We wanted the site to be: </p>
+
+		<ul>
+			<li>Serious, but witty</li>
+			<li>Idealistic, but knowledgeable</li>
+			<li>Bold, but not arrogant</li>
+			<li>Poignant, but not alienating/self-righteous</li>
+			<li>Approachable/kind, but purposeful</li>
+		</ul>
+
+		<div id="visual2">
+		<img src="ts-visual-v1.png">
+		</div>
+
+		<p> On the visual style, we used minimal colors so the design doesn’t distract from the goal (greys, white, black, and one or two other colors): black shows seriousness and boldness, white is idealistic and purposeful. A bit of color gives it kindness and does not alienate (yellow or red), and the minimal use of colors (and thus no clutter) makes the site purposeful and serious. </p>
+
+		<div id="visual3">
+		<img src="ts-visual-v2.png">
+		</div>
+
+		<p> We also included interactive elements and engagement methods to delight and surprise as a user navigates the site: </p>
+
+		<ul>
+			<li>The use of the donut after submitting the form makes it feel friendly.</li>
+			<li>At the beginning, there is automatic trigger to geolocate the users to show them the event or volunteer options happening around them that are relevant (prompting them to allow geolocation, of course), making the site feel purposeful and serious.</li>
+			<li>An inspirational gif or quote that is randomized creates a sense of anticipation. </li>
+			<li> Feedback of what filters have been selected. </li>
+			<li>Every time users select something, the sentence changes and acknowledges their selection. </li>
+			<li> The dynamic paragraph on top of the home page image gives a glimpse into Tech Solidarity by having a changing link with the different locations Tech Solidarity and another changing link with the different success stories that already have been done. </li>
+		</ul>
+
+		<p> These interactions are created to inspire prospective volunteers so they feel optimistic and idealistic that what they will do will really help out, and be encouraged that they will be part of a larger community of like-minded do-gooders. </p>
+
+		<div id="final">
+		<img src="ts-finaldesktop.png">
+		</div>
+
+		<h2>Final prototype</h2>
+
+		<p> After deciding how our site will look and how it would function, we created a final prototype with the feedback from testing the wireframes and then testing the visual design. We made sure to: </p>
+
+		<ul>
+			<li> List out the steps so it reflects how the user would navigate the site. </li>
+			<li> Be more direct and fun with language, and give the user feedback each stage of the way. </li>
+			<li> Unclutter each page to keep it to the bare minimum so the user is not distracted from going on to the next stage. </li>
+			<li> On the mobile version, if the user swipes or clicks on an arrow they will swipe to another mini screen to see all the steps. The same happens when sliding along the options in the location. </li>
+			<li> When filtering (and the dynamic changing of volunteering options), a user gets immediate feedback and showing the users the filters they already selected. </li>
+			<li> Across the site, as the user selects filters, the next screen has two sentences that change and acknowledge the selection, like "Awesome, we always need more volunteers" and "Cool! I wish I could code as well". </li>
+		</ul>
+
+		<div id="prototype">
+		<iframe src="https://marvelapp.com/4f9b3h3?emb=1" width="402" height="823" allowTransparency="true" frameborder="0"></iframe>
+		</div>
+
+		<h2>Conclusion</h2>
+
+		<p> As mentioned before, I have worked in community organizations in different capacities, as a volunteer looking to connect with a cause and working within an organization looking for volunteers. This initial connection, where the right volunteer knocks on the door of the right organization, is extremely important. If the volunteering experience for both parties works great, then it inspires each to extend and reach out to new experiences with new community actors, enlarging the action networks that bring about social change. </p>
+
+		<p> So the experience that Tech Solidarity provides, as do many other volunteer matching services and social justice platforms, has to motivate throughout and be emotionally resonant. Such is the case with the onboarding process, and Tech Solidarity’s website needs to be this initial portal for action. For prospective volunteers to get inspired and commit to join a cause, the technology facilitating this process has to reassure them with meaningful information and engage them with an easy to follow path guiding them toward their goal as seamlessly as possible. </p>
+
+		<p> Each interaction in the site has to be dynamic and provide them with constant and immediate feedback. Filters should provide the right balance of choices to help them get to the best option. Visual elements and content need to enhance each other so each option has what it takes to make the best informed decision. It should give prospective volunteers a sense of what it would be like to work together with that organization, visualize how they would fit in, and making it simple and pleasurable to convince them they are joining a cause that they will bring the most meaningful impact. </p>
+	</div>
+	</div>
+
+
+
+<script src="myscript.js" type="text/javascript">
+	</script>
+
+</body>
+
+
+
+</html>
